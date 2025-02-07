@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="./imagem/preview.png" alt="Imagem de uma lâmpada" class="lamp-img">
+        <h1>Jogo de Adivinhação</h1>
+        <p>Tente adivinhar o número que estou pensando (de 0 a 10).</p>
+        <input type="number" id="guessInput" min="0" max="10" placeholder="Seu palpite">
+        <button onclick="makeGuess()">Chutar</button>
+        <p id="resultMessage"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
